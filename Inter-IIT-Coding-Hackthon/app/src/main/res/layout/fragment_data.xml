@@ -1,0 +1,92 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/fragmentData_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Project name"
+            app:layout_constraintTop_toTopOf="parent"
+            android:inputType="none"
+            android:enabled="false"
+            android:focusable="false"
+            android:clickable="false"/>
+
+        <EditText
+            android:id="@+id/fragmentData_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:hint="Project description"
+            android:inputType="none"
+            android:enabled="false"
+            android:focusable="false"
+            android:clickable="false"
+            />
+
+        <EditText
+            android:id="@+id/fragmentData_contr_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:hint="Contractor name"
+            android:inputType="none"
+            android:enabled="false"
+            android:focusable="false"
+            android:clickable="false"/>
+
+        <EditText
+            android:id="@+id/fragmentData_contr_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:hint="Project status"
+            android:maxLines="4"
+            android:inputType="none"
+            android:enabled="false"
+            android:focusable="false"
+            android:clickable="false"/>
+
+        <EditText
+            android:id="@+id/fragmentData_contr_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:hint="Project starting date"
+            android:inputType="none"
+            android:enabled="false"
+            android:focusable="false"
+            android:clickable="false"/>
+
+        <Button
+            android:id="@+id/btn_submit_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Submit Feedback"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "991072416304",
+    "firebase_url": "https://roads-maintenance-interiit2019.firebaseio.com",
+    "project_id": "roads-maintenance-interiit2019",
+    "storage_bucket": "roads-maintenance-interiit2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991072416304:android:c8200ea932694b9b6633f5",
+        "android_client_info": {
+          "package_name": "com.example.coding_hackaton_guwahati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991072416304-ls4h6vg46a3f6pm6t95b5varsi9vqu9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coding_hackaton_guwahati",
+            "certificate_hash": "7bb91c1c910c4f31240e0882427bc8a724447229"
+          }
+        },
+        {
+          "client_id": "991072416304-sdq42b18613qldupgqccu9kba481imvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coding_hackaton_guwahati",
+            "certificate_hash": "2d876a0babd8bc9688997265c84b4c0c88fed6a0"
+          }
+        },
+        {
+          "client_id": "991072416304-5r2r7itarpj8s2mtcjocvlcbmg1ed7ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2MPhGal7FF9NsGiXb4EF2EEccLUoRj58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991072416304-5r2r7itarpj8s2mtcjocvlcbmg1ed7ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991072416304:android:695e744566b5948e6633f5",
+        "android_client_info": {
+          "package_name": "com.example.roads_maintenance_interiit2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991072416304-ce9nlvdk2pr1584fu4ngi6nq5251drr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roads_maintenance_interiit2019",
+            "certificate_hash": "2ceee729190301b0daa1ee6b976418a72b69f305"
+          }
+        },
+        {
+          "client_id": "991072416304-5r2r7itarpj8s2mtcjocvlcbmg1ed7ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2MPhGal7FF9NsGiXb4EF2EEccLUoRj58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991072416304-5r2r7itarpj8s2mtcjocvlcbmg1ed7ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

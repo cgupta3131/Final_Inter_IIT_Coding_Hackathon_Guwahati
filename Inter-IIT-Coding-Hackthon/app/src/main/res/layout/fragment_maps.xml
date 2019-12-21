@@ -1,0 +1,20 @@
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.coding_hackaton_guwahati.Project_Details"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_maps"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:context="com.example.coding_hackaton_guwahati.MapsActivity2"
+        />
+
+
+</FrameLayout>
